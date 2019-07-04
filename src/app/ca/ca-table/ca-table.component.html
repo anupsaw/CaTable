@@ -1,0 +1,17 @@
+<div class="table">
+    <div class="table-header">
+        <div class="table-row">
+            <div class="table-column" *ngFor="let column of columns">
+                <span>{{column}}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="table-body">
+        <div class="table-row" *ngFor="let row of rows">
+            <div class="table-column" *ngFor="let column of columns">
+                <span>{{row[column]}}</span>
+            </div>
+        </div>
+    </div>
+</div>

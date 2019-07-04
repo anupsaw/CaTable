@@ -1,0 +1,3 @@
+<ca-table [rows]="currentUserList" [columns]="columns"></ca-table>
+<ca-pagination [itemsPerPage]="itemsPerPage" [totalCount]="rows!.length" (pageChange)="onPageChange($event)">
+</ca-pagination>

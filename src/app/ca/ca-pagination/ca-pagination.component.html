@@ -1,0 +1,8 @@
+<!-- <p>ca-pagination works!</p> -->
+<div>
+    <a (click)="onFirst()" [ngClass]="{'isDisabled':firstPage}">First</a>
+    <a (click)="onPrev()" [ngClass]="{'isDisabled':firstPage}">prev</a>
+
+    <a (click)="onNext()" [ngClass]="{'isDisabled':lastPage}">next</a>
+    <a (click)="onLast()" [ngClass]="{'isDisabled':lastPage}">Last</a>
+</div>

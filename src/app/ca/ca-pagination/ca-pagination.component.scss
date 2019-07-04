@@ -1,0 +1,21 @@
+:host{
+    display: flex;
+    justify-content: flex-end;
+    a{
+        cursor: pointer;
+    }
+    
+    div{
+        display: flex;
+        width: 200px;
+        justify-content: space-evenly;
+    }
+
+    .isDisabled {
+        color: currentColor;
+        cursor: not-allowed;
+        opacity: 0.5;
+        text-decoration: none;
+      }
+    
+}

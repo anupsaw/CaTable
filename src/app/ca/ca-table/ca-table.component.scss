@@ -1,0 +1,79 @@
+:host {
+    flex-direction: column;
+    flex: 1 1 auto;
+    display: flex;
+    overflow: auto;
+    min-height: 200px;
+    max-height: 500px;
+
+    div {
+        display: flex;
+    }
+
+    .table {
+        flex-direction: column;
+        align-items: flex-start;
+        min-height: min-content;
+        /* needs vendor prefixes */
+        display: flex;
+    }
+
+    .table-header {
+        height: 30px;
+        background-color: #bfbcbc;
+        flex-grow: 1;
+    }
+
+    .table-body {
+        flex-direction: column;
+        align-items: flex-start;
+        flex-grow: 1;
+    }
+
+    .table-column {
+        padding: 5px;
+        width: 200px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// table ,tr td{
+//     border:1px solid red;
+//     width: 120px;
+// }
+// tbody {
+//     display:block;
+//     height:400px;
+//     width: 700px;
+//     overflow:auto;
+// }
+// thead, tbody tr {
+//     display:table;
+//     width:100%;
+//     table-layout:fixed;/* even columns width , fix width of table too*/
+// }
+// // tbody tr {
+// //     width: 120px;
+// // }
+// thead {
+//     width: calc( 100% - 1em )/* scrollbar is average 1em/16px width, remove it from thead width */
+// }
+// table {
+//     width:700px;
+// }
